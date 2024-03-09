@@ -1,0 +1,218 @@
+/*Pre configurated css template for the project.*/
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+
+
+.btn-theme-template {
+  
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    background: #003964;
+    color: #fff;
+    border-radius: 7px;
+    border: 1px solid #12578a;
+    text-align: center;
+    padding-top: 13px;
+    margin-top: 15px;
+    -webkit-box-shadow: -2px 11px 16px 2px rgba(181,174,174,0.7); 
+    box-shadow: -2px 11px 16px 2px rgba(181,174,174,0.7);
+  
+}
+
+.btn-theme-input {
+  
+    display: block;
+    margin-top: 15px;
+    width: 290px;
+    height: 40px;
+    border: none;
+    border:solid 1.5px #003964;
+    border-radius: 10px;  
+    text-align: center;
+  
+}
+
+.discription--text {
+  
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+    
+  }
+  
+  .main--text {
+    
+    font-family: 'Noto Sans KR', sans-serif;
+     font-size: 40px;
+    
+  }
+  
+  .sub--text {
+    
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: lighter; /*optional*/
+      
+  }
+  
+  .normal--text {
+    
+     font-family: 'Noto Sans KR', sans-serif;
+     font-size: 14px;
+     font-weight: normal;
+     line-height: 1.5;
+      
+  }
+
+  .normal--boldtext {
+  
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    
+  }
+
+/*FLOAT CLEARFIX*/
+
+.clearfix::after {
+
+    content: "";
+    clear: both;
+    display: block;
+    
+}
+    
+.float--left {
+    
+    float: left;
+    
+}
+    
+.float--right {
+    
+    float: right;
+    
+}
+
+/*inner configuration*/
+
+.container-landing {
+
+    width: 1080px;
+    margin: 0 auto;
+    height: 100%;
+
+}
+
+/*Header css configuration. Altered for use.*/
+
+header {
+
+    height: 30px;
+    padding-top: 10px;
+    background: #003964;
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+    position: relative;
+  
+  }
+
+header .discription--text {
+
+    position: relative;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.container-landing .main-text-wraper {
+
+    margin-top: 250px
+
+}
+
+.container-landing .main-text-wraper .main--text {
+
+    font-size: 50px;
+
+}
+
+.container-landing .main-text-wraper .sub--text {
+
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+.container-landing .btn-theme-template {
+
+    margin-top: 50px;
+
+}
+
+/*FOOTER CSS CONFIGURATION*/
+
+.discription--text {
+
+    margin: 0 auto;
+    width: 1080px;
+    position: absolute;
+    bottom: 30px;
+    
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    header {
+
+        width: 100%;
+
+    }
+    
+    header .discription--text {
+
+        width: 300px;
+
+    }
+
+    .container-landing {
+
+        
+        width: 300px;
+        margin-top: -30px;
+
+    }
+
+    .container-landing .main-text-wraper .main--text {
+
+        font-size: 30px;
+
+    }
+
+    .container-landing .main-text-wraper .sub--text {
+
+        font-size: 20px;;
+
+    }
+
+    .container-landing .discription--text {
+
+        width: 300px;
+        font-size: 10px;
+
+    }
+
+}
+
+
