@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>자가진단 페이지</title>
+
+    <meta name="author" content="방역당국">
+    <meta name="discription" content="등교 여부를 위해 자가진단에 임해주세요!">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1, user-zoom=fixed">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="자가진단">
+    <meta property="og:title" content="등교하기 전에 자가진단 하고 갑시다!">
+    <meta property="og:description" content="방역당국에서 전국의 학교에 등교하기 위해 아침에 반드시 해야 하는 자가진단.">
+    <meta property="og:image" content="img/logo__github.png">
+    <meta property="og:url" content="https://github.com">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logo.jpg">
+    <link rel="icon" href="./img/logo.jpg">
+    <link rel="apple-touch-icon" href="./img/logo.jpg">
+
+    <!--CSS STYLESHEET LINK. -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/diagnose.css">
+
+
+</head>
+
+<body>
+    
+    <header>
+
+            <h3 class="discription--text">@경기도 교육청 제공, @copyright 2023.11.28</h3>
+    
+            <div class="header-wraper">
+
+                <a href="./login.html"><p class="discription--text">뒤로가기</p></a>
+                <h1 class="main--text">자가진단을 시작해 봅시다.</h1>
+                <h3 class="sub--text">성실히 응답하여, 코로나 방역수칙에 준수하도록 합니다!</h3>
+
+            </div>
+        
+
+    </header>
+
+    <div class="container-landing">
+
+        <div class="diagnose-preset-wraper">
+
+            <h3 class="normal--boldtext">1번. 현재 감기 증상이 있습니까?</h3>
+
+            <div class="selection-wraper">
+
+                <div class="diagnose-answer-yes-wraper">
+
+                    <input type="radio" id="fever-yes">
+                    <label for="fever-yes">네 현재 발열등 유증상을 보유하고 있습니다.</label>
+    
+                </div>
+    
+                <div class="diagnose-answer-no-wraper">
+                    
+                    <input type="radio" id="fever-no">
+                    <label for="fever-no">아니요, 현재 유증상이 없어요!</label>
+    
+                </div>
+
+            </div>
+
+            <p class="discription--text">적극적으로 설문조사에 임해주시면 감사하겠습니다. 의문되는 질문이 있으면 <a href="#">클릭해서</a> 답변을 보내주시면 됩니다.</p>
+
+
+        </div>
+
+        <div class="diagnose-preset-wraper">
+
+            <h3 class="normal--boldtext">2번. 현재 기침,콧물등 코로나 의심 증상을 보유하고 계십니까?</h3>
+
+            <div class="selection-wraper">
+
+                <div class="diagnose-answer-yes-wraper">
+
+                    <input type="radio" id="fever-yes">
+                    <label for="fever-yes">네 현재 유증상을 보유하고 있습니다.</label>
+    
+                </div>
+    
+                <div class="diagnose-answer-no-wraper">
+                    
+                    <input type="radio" id="fever-no">
+                    <label for="fever-no">아니요, 현재 유증상이 없어요!</label>
+    
+                </div>
+
+            </div>
+
+            <p class="discription--text">적극적으로 설문조사에 임해주시면 감사하겠습니다. 의문되는 질문이 있으면 <a href="#">클릭해서</a> 답변을 보내주시면 됩니다.</p>
+
+
+        </div>
+
+        <div class="diagnose-preset-wraper">
+
+            <h3 class="normal--boldtext">3번. 2주 내로 해외에 출국한 적이 있습니까?</h3>
+
+            <div class="selection-wraper">
+
+                <div class="diagnose-answer-yes-wraper">
+
+                    <input type="radio" id="fever-yes">
+                    <label for="fever-yes">네 해외 출국한 적이 있습니다.</label>
+    
+                </div>
+    
+                <div class="diagnose-answer-no-wraper">
+                    
+                    <input type="radio" id="fever-no">
+                    <label for="fever-no">아니요, 그런 적 없습니다.</label>
+    
+                </div>
+
+            </div>
+
+            <p class="discription--text">적극적으로 설문조사에 임해주시면 감사하겠습니다. 의문되는 질문이 있으면 <a href="#">클릭해서</a> 답변을 보내주시면 됩니다.</p>
+
+
+        </div>
+
+        <div class="diagnose-preset-wraper">
+
+            <h3 class="normal--boldtext">4번. 2주 내에 확진자와 접촉한 이력이 있습니까?</h3>
+
+            <div class="selection-wraper">
+
+                <div class="diagnose-answer-yes-wraper">
+
+                    <input type="radio" id="fever-yes">
+                    <label for="fever-yes">네 그런 이력을 가지고 있습니다.</label>
+    
+                </div>
+    
+                <div class="diagnose-answer-no-wraper">
+                    
+                    <input type="radio" id="fever-no">
+                    <label for="fever-no">아니요, 현재 그런 이력 없습니다.</label>
+    
+                </div>
+
+            </div>
+
+            <p class="discription--text">적극적으로 설문조사에 임해주시면 감사하겠습니다. 의문되는 질문이 있으면 <a href="#">클릭해서</a> 답변을 보내주시면 됩니다.</p>
+
+
+        </div>
+
+        <div class="diagnose-preset-wraper">
+
+            <h3 class="normal--boldtext">5번. 현재 밀접접촉자로 분류되어 자가격리를 이행중이십니까?</h3>
+
+            <div class="selection-wraper">
+
+                <div class="diagnose-answer-yes-wraper">
+
+                    <input type="radio" id="fever-yes">
+                    <label for="fever-yes">네 자가격리 상태로, 자가격리중입니다.</label>
+    
+                </div>
+    
+                <div class="diagnose-answer-no-wraper">
+                    
+                    <input type="radio" id="fever-no">
+                    <label for="fever-no">아닙니다, 현재 자각겨리중이 아닙니다. </label>
+    
+                </div>
+
+            </div>
+
+            <p class="discription--text">적극적으로 설문조사에 임해주시면 감사하겠습니다. 의문되는 질문이 있으면 <a href="#">클릭해서</a> 답변을 보내주시면 됩니다.</p>
+
+
+        </div>
+
+        <div class="diagnose-preset-wraper">
+
+            <h3 class="normal--boldtext">6번. 2주간 코로나 검사를 실시한 적이 있습니까?</h3>
+
+            <div class="selection-wraper">
+
+                <div class="diagnose-answer-yes-wraper">
+
+                    <input type="radio" id="fever-yes">
+                    <label for="fever-yes">네 그런 이력이 있습니다.</label>
+    
+                </div>
+    
+                <div class="diagnose-answer-no-wraper">
+                    
+                    <input type="radio" id="fever-no">
+                    <label for="fever-no">아닙니다 없어요.</label>
+    
+                </div>
+
+            </div>
+
+            <p class="discription--text">적극적으로 설문조사에 임해주시면 감사하겠습니다. 의문되는 질문이 있으면 <a href="#">클릭해서</a> 답변을 보내주시면 됩니다.</p>
+
+
+        </div>
+
+        <div class="diagnose-preset-wraper last-wraper">
+
+            <h3 class="normal--boldtext">7번. 현재 자가격리 시스템의 개인정보 처리 방침에 대해 동의하십니까?</h3>
+
+            <div class="selection-wraper">
+
+                <div class="diagnose-answer-yes-wraper">
+
+                    <input type="radio" id="fever-yes">
+                    <label for="fever-yes">네 전부 동의 합니다.</label>
+    
+                </div>
+    
+                <div class="diagnose-answer-no-wraper">
+                    
+                    <input type="radio" id="fever-no">
+                    <label for="fever-no">아니요, 동의하지 않습니다. </label>
+    
+                </div>
+
+            </div>
+
+            <p class="discription--text">적극적으로 설문조사에 임해주시면 감사하겠습니다. 의문되는 질문이 있으면 <a href="#">클릭해서</a> 답변을 보내주시면 됩니다.</p>
+
+
+        </div>
+
+        <footer>
+
+            <div class="footer-wraper">
+
+                <div class="float--left">
+
+                    <h3 class="normal--text">
+    
+                        성실히 자가진단을 이행해 학급 코로나19 방역 수칙에 동참해 코로나19를 이겨내려는 노력과 성원에 감사 드립니다. 
+    
+                    </h3>
+    
+                </div>
+    
+                <div class="float--right">
+    
+                    <a href="./result.html"><div class="btn-theme-template">
+                        
+                        <p>제출하기</p>
+                    
+                    </div></a>
+    
+                </div>
+
+            </div>
+
+            <p class="discription--text">Lorem ipsum dolor sit amet, aliquam ex, eget scelerisque lacus ullamcorper ac.  , sed interdum augue lacinia id. Orci varius natoque penatibus et magnis dis parturient montes</p>
+
+
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>
